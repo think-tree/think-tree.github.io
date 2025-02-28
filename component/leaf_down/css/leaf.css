@@ -1,0 +1,7 @@
+canvas {
+    display: block;
+    position: fixed;  /* 使canvas固定在视窗顶部 */
+    top: 0;
+    left: 0;
+   z-index: -1;  /*  使canvas在页面内容后面 */
+}

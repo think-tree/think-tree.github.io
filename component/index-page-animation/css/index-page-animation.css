@@ -1,0 +1,56 @@
+.overlay {
+   display: inline;
+    top: 0;
+    left: 0;
+    width: 100%;      /* Cover the entire parent div */
+    height: 100%;     /* Cover the entire parent div */
+    background-size: cover; /* Ensure the background image covers the div */
+    overflow: hidden; /* Hide overflow if any */
+    z-index: 1;       /* Ensure the overlay is above the content */
+    pointer-events: none; /* Prevent interaction with the overlay */
+}
+.plant-grow {
+   padding: 0;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url('../img/plant-animation.png ');
+    overflow: hidden; /* 隐藏超出的内容 */
+   
+}
+.animal-show {
+    padding: 0;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url('../img/animal-animation2.png');
+    overflow: hidden; /* 隐藏超出的内容 */
+    background-position-x: -300px;
+    background-repeat: no-repeat;
+    
+}
+
+@keyframes grows {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1600px;
+    }
+}
+
+@keyframes show {
+    0% {
+        background-position-x: -300px;
+    }
+    100% {
+        background-position-x: 400px;
+    }
+}
+
+.plant-grow:hover {
+    animation: grows 2s steps(4) forwards; /* 鼠标悬停时播放动画，并保持在最后一帧 */
+}
+.animal-show:hover {
+    animation: show 2s steps(7) forwards; /* 鼠标悬停时播放动画，并保持在最后一帧 */
+}

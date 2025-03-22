@@ -43,7 +43,7 @@ Checkout to the dev branch, pull the latest update to local.
 
 Checkout to your branch, then merge the dev branch to your branch.
 
-Then [resolve merge conflicts.](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/), and commit.
+Then [resolve merge conflicts.](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/)  on your branch, and commit changes.
 
 ## 3.1 make a pull request to dev branch
 After resolved merge conflictse, please make a pull request on github.

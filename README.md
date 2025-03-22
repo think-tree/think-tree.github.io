@@ -1,0 +1,49 @@
+
+Please create a new branch every time you start work on a new feature. The branch should name like ```christina_20250322_homepage_animation```
+
+# 1 Before you start to code the new feature
+
+## 1.1 Start with the dev branch
+All feature branches are created off the latest code state of the project. please create a new branch from the dev branch.
+
+```
+git checkout dev
+git fetch origin 
+git reset --hard origin/dev
+```
+
+## 1.2 Create a new-branch
+```
+git checkout -b new-feature-name
+```
+This checks out a branch called  new-feature-name, and the -b flag tells Git to create the branch if it doesn’t already exist.
+
+# 2 when you are coding the new feature
+
+## 2.1 Update, add, commit, and push changes
+On this branch, edit, stage, and commit changes in the usual fashion, building up the feature with as many commits as necessary. Work on the feature and make commits like you would any time you use Git. When ready, push your commits, updating the feature branch.
+```
+git status
+git add <some-file>
+git commit
+```
+
+## 2.2 Push feature branch to remote
+It’s a good idea to push the feature branch up to the central repository. This serves as a convenient backup, when collaborating with other developers, this would give them access to view commits to the new branch.
+```
+git push -u origin new-feature-name
+```
+# 3 After you complete the new feature
+
+## 3.1 make a pull request to dev branch
+After you commited and pushed all your updates to the remote, please make a make a pull request on github.
+
+<img width="1443" alt="image" src="https://github.com/user-attachments/assets/12a26cfb-612d-46a5-8407-b8b6ca07f195" />
+
+<img width="1391" alt="image" src="https://github.com/user-attachments/assets/03eeff6e-f5b0-404b-802c-43662c53f6dd" />
+
+<img width="1455" alt="image" src="https://github.com/user-attachments/assets/94eceb1a-fbb0-4aa1-a254-ed78ec508163" />
+
+<img width="1453" alt="image" src="https://github.com/user-attachments/assets/930633f5-6157-4ebd-8da1-59ab7609930e" />
+
+

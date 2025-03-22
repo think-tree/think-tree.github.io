@@ -29,14 +29,24 @@ git commit
 ```
 
 ## 2.2 Push feature branch to remote
-It’s a good idea to push the feature branch up to the central repository. This serves as a convenient backup, when collaborating with other developers, this would give them access to view commits to the new branch.
+It’s a good idea to push the feature branch up to the remote. This serves as a convenient backup, when collaborating with other developers, this would give them access to view commits to the new branch.
 ```
 git push -u origin new-feature-name
 ```
 # 3 After you complete the new feature
 
+After you commited and pushed all your updates to the remote, please resolve merge conflicts and make a pull request on github.
+
+## 3.1  resolve merge conflicts
+
+Checkout to the dev branch, pull the latest update to local.
+
+Checkout to your branch, then merge the dev branch to your branch.
+
+Then [resolve merge conflicts.](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/), and commit.
+
 ## 3.1 make a pull request to dev branch
-After you commited and pushed all your updates to the remote, please make a make a pull request on github.
+After resolved merge conflictse, please make a pull request on github.
 
 <img width="1443" alt="image" src="https://github.com/user-attachments/assets/12a26cfb-612d-46a5-8407-b8b6ca07f195" />
 
@@ -45,5 +55,8 @@ After you commited and pushed all your updates to the remote, please make a make
 <img width="1455" alt="image" src="https://github.com/user-attachments/assets/94eceb1a-fbb0-4aa1-a254-ed78ec508163" />
 
 <img width="1453" alt="image" src="https://github.com/user-attachments/assets/930633f5-6157-4ebd-8da1-59ab7609930e" />
+
+<img width="1345" alt="image" src="https://github.com/user-attachments/assets/c018b332-a213-4f6d-9ce1-109b819cac4a" />
+
 
 

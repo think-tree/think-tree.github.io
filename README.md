@@ -3,8 +3,12 @@ We are going to use feature branch workflow for collaboration.
 
 Please create a new branch every time you start working on a new feature. The branch name should follow this format: yourname_branchcreatedate(yyyyMMdd)_newfeaturename. For example: ```christina_20250322_homepage_animation``` . Thank you so much.
 
-clone the code of the website from here
-<img width="1446" alt="image" src="https://github.com/user-attachments/assets/4d389d41-36b5-473a-8d78-6278ce7ba9d6" />
+## fork the repository to your account
+<img width="1386" alt="image" src="https://github.com/user-attachments/assets/76a68c5e-5e27-43cf-bd5e-5fb4f0e4471a" />
+
+## go to the your account, clone the repository from your account(this will be the remote in your coding environment).
+<img width="1561" alt="image" src="https://github.com/user-attachments/assets/b84a9596-b1aa-48a8-b903-c25ba293d88f" />
+
 
 
 # 1 Before you start to code the new feature

@@ -1,7 +1,6 @@
 
 We are going to use feature branch workflow for collaboration.
-
-Please create a new branch every time you start to work on a new feature. The branch should name like ```christina_20250322_homepage_animation```
+Please create a new branch every time you start working on a new feature. The branch name should follow this format: yourname_branchcreatedate(yyyyMMdd)_newfeaturename. For example: ```christina_20250322_homepage_animation```
 
 clone the code of the website from here
 <img width="1446" alt="image" src="https://github.com/user-attachments/assets/4d389d41-36b5-473a-8d78-6278ce7ba9d6" />

@@ -13,8 +13,13 @@ Please create a new branch every time you start working on a new feature. The br
 
 # 1 Before you start to code the new feature
 
-## 1.1 Start with the dev branch
 All feature branches are created off the latest code state of the project. please create a new branch from the dev branch.
+
+## 1.1 Start with the dev branch
+
+Sync fork on the repository webpage in your github account.
+
+Checkout to the dev branch and pull the latest update to local in your coding environment.
 
 ```
 git checkout dev

@@ -49,9 +49,11 @@ After you commited and pushed all your updates to the remote, please resolve mer
 
 ## 3.1  resolve merge conflicts
 
-Checkout to the dev branch, pull the latest update to local.
+Sync fork on the repository webpage in your github account.
 
-Checkout to your branch, then merge the dev branch to your branch.
+Checkout to the dev branch and pull the latest update to local in your coding environment.
+
+Checkout to your branch then merge the dev branch to your branch in your coding environment.
 
 Then [resolve merge conflicts.](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/)  on your branch, and commit changes.
 

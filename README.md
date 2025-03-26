@@ -6,7 +6,8 @@ Please create a new branch every time you start working on a new feature. The br
 ## fork the repository to your account
 <img width="1386" alt="image" src="https://github.com/user-attachments/assets/76a68c5e-5e27-43cf-bd5e-5fb4f0e4471a" />
 
-## go to the your account, clone the repository from your account to your in your local coding environment.the repository in your account will be the remote（or origin）in your local  coding environment.
+## go to the your account, clone the repository from your account to your in your local coding environment.
+The repository in your account will be the remote（or origin）in your local  coding environment.
 <img width="1561" alt="image" src="https://github.com/user-attachments/assets/b84a9596-b1aa-48a8-b903-c25ba293d88f" />
 
 ## you will see these branch in your coding environment.

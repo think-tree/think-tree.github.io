@@ -26,7 +26,7 @@ All feature branches are created off the latest code state of the project. pleas
 
 Sync fork on the repository webpage in your github account.
 
-Checkout to the dev branch and pull the latest update to local in your coding environment.
+Checkout to the dev branch, pull the latest update to local in your coding environment and discard any local changes.
 
 ```
 git checkout dev

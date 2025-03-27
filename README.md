@@ -1,5 +1,5 @@
 
-We are going to use feature branch workflow for collaboration.
+We are going to use this guideline for collaboration.
 
 Please create a new branch every time you start working on a new feature. The branch name should follow this format: yourname_branchcreatedate(yyyyMMdd)_newfeaturename. For example: ```christina_20250322_homepage_animation``` . Thank you so much.
 
@@ -67,20 +67,28 @@ Checkout to the dev branch and pull the latest update to local in your coding en
 
 Checkout to your branch then merge the dev branch to your branch in your coding environment.
 
-Then [resolve merge conflicts.](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/)  on your branch, and commit changes.
+Then [resolve merge conflicts](https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/)  on your branch, and commit changes.
 
 ## 3.1 make a pull request to dev branch
 After resolved merge conflictse, please make a pull request on github.
 
-<img width="1443" alt="image" src="https://github.com/user-attachments/assets/12a26cfb-612d-46a5-8407-b8b6ca07f195" />
+<img width="1394" alt="image" src="https://github.com/user-attachments/assets/aa458c96-de5c-42f8-86cd-07118b7fbaa8" />
 
-<img width="1391" alt="image" src="https://github.com/user-attachments/assets/03eeff6e-f5b0-404b-802c-43662c53f6dd" />
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/cfe9eaa9-99e5-4414-bc08-72a5b0efd24d" />
 
-<img width="1455" alt="image" src="https://github.com/user-attachments/assets/94eceb1a-fbb0-4aa1-a254-ed78ec508163" />
+<img width="1458" alt="pull request 3" src="https://github.com/user-attachments/assets/b1354874-840e-4acb-88e4-93591f15f238" />
 
-<img width="1453" alt="image" src="https://github.com/user-attachments/assets/930633f5-6157-4ebd-8da1-59ab7609930e" />
+<img width="1458" alt="pull request 5" src="https://github.com/user-attachments/assets/d8fdbf42-0911-4b79-95b1-dacce16b9202" />
 
-<img width="1345" alt="image" src="https://github.com/user-attachments/assets/c018b332-a213-4f6d-9ce1-109b819cac4a" />
+<img width="1364" alt="pull request 7" src="https://github.com/user-attachments/assets/8cfc55cb-8a70-4793-a8ca-9500722d4ac8" />
+
+<img width="1374" alt="pull request 9" src="https://github.com/user-attachments/assets/d3a9a8cc-c642-4a1d-945c-4d39a00db575" />
+
+<img width="1332" alt="pull request 11" src="https://github.com/user-attachments/assets/ff3f5b80-b51e-4696-960c-a1761f8033e1" />
+
+<img width="1212" alt="pull request 12" src="https://github.com/user-attachments/assets/717e1ee8-b01c-4e38-8245-996451d996ca" />
+
+
 
 
 

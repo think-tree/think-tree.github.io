@@ -1,12 +1,12 @@
 
 We are going to use this guideline for collaboration.
 
-Please create a new branch every time you start working on a new feature. The branch name should follow this format: yourname_branchcreatedate(yyyyMMdd)_newfeaturename. For example: ```christina_20250322_homepage_animation``` . Thank you so much.
+Please create a new branch based on the ```dev``` branch every time you start working on a new feature. The branch name should follow this format: yourname_branchcreatedate(yyyyMMdd)_newfeaturename. For example: ```christina_20250322_homepage_animation``` . Thank you so much.
 
 ## fork the repository to your account
 <img width="1386" alt="image" src="https://github.com/user-attachments/assets/76a68c5e-5e27-43cf-bd5e-5fb4f0e4471a" />
 
-## go to the your account, clone the repository from your account to your in your local coding environment.
+## go to the your account, clone the repository from your account to your local coding environment.
 The repository in your account will be the remote（or origin）in your local  coding environment.
 <img width="1561" alt="image" src="https://github.com/user-attachments/assets/b84a9596-b1aa-48a8-b903-c25ba293d88f" />
 
@@ -20,7 +20,7 @@ The repository in your account will be the remote（or origin）in your local  c
 
 # 1 Before you start to code the new feature
 
-All feature branches are created off the latest code state of the project. please create a new branch from the dev branch.
+All feature branches are created off the latest code state of the project. Please create a new branch from the ```dev``` branch.
 
 ## 1.1 Start with the dev branch
 

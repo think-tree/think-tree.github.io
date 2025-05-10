@@ -1,0 +1,146 @@
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header .nav-link {
+    font-size: 29px;
+}
+
+header .btn-nav-donate {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-size: 29.88px;
+    font-weight: 400;
+
+}
+
+.bd-footer h5 {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.bd-footer li {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.footer-title {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.hero-section h1 {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 500;
+    font-size: 113.44px;
+}
+
+.hero-section .lead {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.division-section h1 {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 700;
+    font-size: 113.44px;
+    margin-bottom: 50px;
+
+}
+
+.division-section .lead {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section-title {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 500;
+    font-size: 113.44px;
+
+}
+
+.content-title {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 600;
+    font-size: 128px;
+
+}
+
+.get_involved_donation_card .card-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+}
+
+.get_involved_donation_card .card-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ad-section .lead{
+  font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.interaction-section h1{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 500;
+    font-size: 137.2px;
+
+}
+
+.think_tree_impact h1{
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+} 
+
+.think_tree_impact .lead{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.think_tree_impact h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #2D5605;
+}  
+
+.think_tree_impact p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+        color: #2D5605;
+} 
+
+.success_story h1{
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+} 
+
+.success_story .name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.success_story  .intro{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2D5605;
+}  

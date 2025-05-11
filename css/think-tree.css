@@ -247,6 +247,7 @@ header .active {
     background: radial-gradient(at 50% 50%, #3d642e, #314726);
     clip-path: ellipse(2000px 600px at 50% 30%);
     /* margin-bottom: 30px; */
+    overflow: hidden;
 }
 
 .hero-section h1 {
@@ -345,8 +346,6 @@ header .active {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("../img/get_involved_left.png");
-    /* Set the background color to white */
-
 }
 
 .get_involved_hero_right {
@@ -355,8 +354,6 @@ header .active {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("../img/get_involved_right.png");
-    /* Set the background color to white */
-
 }
 
 .get_involved_donation_card {

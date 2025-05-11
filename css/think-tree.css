@@ -1,8 +1,37 @@
+/* Value	Common weight name
+100	Thin (Hairline)
+200	Extra Light (Ultra Light)
+300	Light
+400	Normal (Regular)
+500	Medium
+600	Semi Bold (Demi Bold)
+700	Bold
+800	Extra Bold (Ultra Bold)
+900	Black (Heavy)
+950	Extra Black (Ultra Black) */
+
+/* // `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... } */
+
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /* background-color: #FAF8F0; Creamy off-white background */
     color: #333;
-    /* Default text color */
+    min-width: 320px;
 }
 
 h1,
@@ -10,9 +39,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #314726;
+    color: #2D5605;
 }
 
 .index-body-background {
@@ -37,13 +67,13 @@ h6 {
     background: radial-gradient(circle closest-side at 50% 23%,
             #f8ed725f 10%,
             transparent 60%),
-            radial-gradient(circle closest-side at 50% 55%,
+        radial-gradient(circle closest-side at 50% 55%,
             #f8ed725f 10%,
             transparent 50%);
 }
 
 .tt-dark-background {
-    background-color: #314726;
+    background-color: #2D5605;
 }
 
 .title-highlight-color {
@@ -62,8 +92,8 @@ h6 {
 }
 
 .btn-tt-dark {
-    background-color: #314726;
-    border-color: #314726;
+    background-color: #2D5605;
+    border-color: #2D5605;
     color: #FAF8F0;
     border-radius: 40px;
 }
@@ -142,12 +172,8 @@ header .rounded-bottom {
     border-top-right-radius: 0;
 }
 
-header .fs-4 {
-    color: #314726;
-}
-
 header .nav-link {
-    color: #314726 !important;
+    color: #2D5605 !important;
     margin: 0 10px;
 }
 
@@ -155,7 +181,7 @@ header .nav-link:hover {
     color: #5A8A48 !important;/
 }
 
-header .nav-link.active {
+header .active {
     color: #E5BA5D !important;
 }
 
@@ -186,14 +212,13 @@ header .nav-link.active {
 
 /* Footer Styles */
 .bd-footer {
-    background-color: #314726;
+    background-color: #2D5605;
     color: #FAF8F0;
-   
+
 }
 
 .bd-footer h5 {
     color: #E5BA5D;
-
 }
 
 .bd-footer li {}
@@ -232,6 +257,10 @@ header .nav-link.active {
     color: white;
 }
 
+.hero-section p {
+    color: white;
+}
+
 .hero-section .card {
     background-color: transparent !important;
 }
@@ -242,36 +271,6 @@ header .nav-link.active {
         display: none;
     }
 }
-
-/* Value	Common weight name
-100	Thin (Hairline)
-200	Extra Light (Ultra Light)
-300	Light
-400	Normal (Regular)
-500	Medium
-600	Semi Bold (Demi Bold)
-700	Bold
-800	Extra Bold (Ultra Bold)
-900	Black (Heavy)
-950	Extra Black (Ultra Black) */
-
-/* // `xs` returns only a ruleset and no media query
-// ... { ... }
-
-// `sm` applies to x-small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
-
-// `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-// `lg` applies to medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// `xl` applies to large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-// `xxl` applies to x-large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... } */
 
 .uganda_division {
     padding-bottom: 20px;
@@ -373,23 +372,22 @@ header .nav-link.active {
     color: #2D5605;
 }
 
-.ad-section .lead{
-  color: #E5BA5D;
+.ad-section .lead {
+    color: #E5BA5D;
 }
 
-.success_story img{
-border: 3px solid #E5BA5D;;
- /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+.success_story img {
+    border: 3px solid #E5BA5D;
 }
 
-.success_story .title-background{
-        background: radial-gradient(ellipse closest-side at 50% 50%,
+.success_story .title-background {
+    background: radial-gradient(ellipse closest-side at 50% 50%,
             #f8ed725f 10%,
             transparent 90%);
 }
 
-.success_story .individual-background{
-        background: radial-gradient(ellipse closest-side at 50% 60%,
+.success_story .individual-background {
+    background: radial-gradient(ellipse closest-side at 50% 60%,
             #f8ed725f 10%,
             transparent 90%);
 }

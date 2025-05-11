@@ -47,6 +47,13 @@ header .btn-nav-donate {
 
 }
 
+.hero-section p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
 .division-section h1 {
     font-family: 'Cormorant Infant', sans-serif;
     font-weight: 700;
@@ -144,3 +151,15 @@ header .btn-nav-donate {
     font-size: 24px;
     color: #2D5605;
 }  
+
+.download-chapter h1{
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 700;
+    font-size: 137.92px;
+}
+
+.download-chapter .lead{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}

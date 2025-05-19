@@ -63,6 +63,8 @@ After you commited and pushed all your updates to the remote, please resolve mer
 
 Sync fork on the repository webpage in your github account.
 
+<img width="1001" alt="image" src="https://github.com/user-attachments/assets/a1e8d8e0-ee60-41db-b709-6d50a8a5af8e" />
+
 Checkout to the dev branch and pull the latest update to local in your coding environment.
 
 Checkout to your branch then merge the dev branch to your branch in your coding environment.

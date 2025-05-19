@@ -10,6 +10,10 @@
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="../css/think-tree.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="../css/design-test-2025-05-07.css">
+  <link rel="stylesheet" href="../component/jsvectormap/jsvectormap.css" />
+  <script src="../component/jsvectormap/jsvectormap.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/tree-map.css" <link rel="preconnect"
+    href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap" rel="stylesheet">
@@ -41,13 +45,175 @@
     </div>
   </header>
   <div style="height: 70px;"></div> <!-- Spacer for fixed header -->
-
   <div class="container px-4 py-5 my-5 text-center interaction-section">
     <h1 class="display-5 fw-bold mb-4">Tree Map</h1>
-    <!-- <p class="lead mb-4">Discover the locations of our tree planting projects and see the collective impact we are
-      making.</p> -->
-    <img src="../img/placeholder-treemap.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
-      alt="Placeholder Tree Map Illustrating Project Locations" width="700" height="500" loading="lazy" />
+    <p class="lead">Please click on a region to view the trees planted by Think Tree divisions</p>
+    <div id="map-wrapper" style="width: 750px; height: 400px; margin: auto; border: 1px solid #EEE"
+      class="jsvmap-container"></div>
+    <div class="uganda">
+      <h2>
+        Uganda
+      </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Quantity</th>
+            <th>Scientific Name</th>
+            <th>Common Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24/12/2024</td>
+            <td>2</td>
+            <td>Markhamia lutea</td>
+            <td>Nile Trumpet</td>
+          </tr>
+          <tr>
+            <td>24/12/2024</td>
+            <td>2</td>
+            <td>Zanthoxylum gilletii</td>
+            <td>East African Satinwood</td>
+          </tr>
+          <tr>
+            <td>24/12/2024</td>
+            <td>2</td>
+            <td>Croton macrostachyus</td>
+            <td>Broad-leaved croton</td>
+          </tr>
+          <tr class="lightGrey">
+            <td>04/02/2025</td>
+            <td>2</td>
+            <td>Croton megalocarpus</td>
+            <td>Silvery_leaved croton</td>
+          </tr>
+          <tr class="lightGrey">
+            <td>04/02/2025</td>
+            <td>2</td>
+            <td>Citrus sinensis</td>
+            <td>Orange</td>
+          </tr>
+          <tr class="lightGrey">
+            <td>04/02/2025</td>
+            <td>6</td>
+            <td>Coffea arabica</td>
+            <td>Coffee</td>
+          </tr>
+          <tr class="lightGrey">
+            <td>04/02/2025</td>
+            <td>2</td>
+            <td>Mangifera indica</td>
+            <td>Mango</td>
+          </tr>
+          <tr class="lightGrey">
+            <td>04/02/2025</td>
+            <td>1</td>
+            <td>Prunus africana</td>
+            <td>African cherry/Red stinkwood</td>
+          </tr>
+          <tr>
+            <td>07/01/2025</td>
+            <td>8</td>
+            <td>Maesopsis eminii</td>
+            <td>Umbrella tree/Maesopsis</td>
+          </tr>
+          <tr>
+            <td>07/01/2025</td>
+            <td>5</td>
+            <td>Warburgia ugandensis</td>
+            <td>Ugandan Greenheart</td>
+          </tr>
+          <tr>
+            <td>07/01/2025</td>
+            <td>1</td>
+            <td>Prunus africana</td>
+            <td>African cherry/Red stinkwood</td>
+          </tr>
+          <tr>
+            <td>07/01/2025</td>
+            <td>3</td>
+            <td>Mangifera indica</td>
+            <td>Mango</td>
+          </tr>
+          <tr>
+            <td>07/01/2025</td>
+            <td>2</td>
+            <td>Artocarpus heterophyllus</td>
+            <td>Jack fruit</td>
+          </tr>
+          <tr class="lightGrey">
+            <td>01/03/2025</td>
+            <td>4</td>
+            <td>Coffea arabica</td>
+            <td>Coffee</td>
+          </tr>
+          <tr>
+            <td>26/04/2025</td>
+            <td>3</td>
+            <td>Spathodea campanulata</td>
+            <td>African tulip tree (Nandi flame)</td>
+          </tr>
+          <tr>
+            <td>26/04/2025</td>
+            <td>1</td>
+            <td>Polysius fulva</td>
+            <td>Parasol tree</td>
+          </tr>
+          <tr>
+            <td>26/04/2025</td>
+            <td>6</td>
+            <td>Coffea arabica</td>
+            <td>Coffee</td>
+          </tr>
+          <tr>
+            <td>26/04/2025</td>
+            <td>2</td>
+            <td>Grevillea robusta</td>
+            <td>Silky oak tree</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="kenya">
+      <h2>
+        Kenya
+      </h2>
+      Location: Southern Kenya
+
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th> Tree Species</th>
+              <th>Numbers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Silk Oak</td>
+              <td>50 trees</td>
+            </tr>
+            <tr>
+              <td>Eucalyptus</td>
+              <td> 62 trees</td>
+            </tr>
+            <tr>
+              <td>Cedar</td>
+              <td>12 trees</td>
+
+            </tr>
+            <tr>
+              <td>Pine</td>
+              <td>2 trees</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tanzania">
+      <h2>tanzania </h2>
+    </div>
   </div>
 
   <div class="container px-4 py-5 my-5 text-center interaction-section">
@@ -113,13 +279,233 @@
 <script src="../js/jquery-1.8.0.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="js/main.js" type="text/javascript"></script>
+
+<script src="../component/jsvectormap/maps/world.js"></script>
+
+<script>
+  // The jsVectorMap.js file is based on the GitHub project file and has been modified for this project.
+  var worldMap = new jsVectorMap({
+    // world_merc, us_mill_en, us_merc_en,
+    // us_lcc_en, us_aea_en, spain
+    // russia, canada, iraq
+    map: 'world',
+    selector: '#map-wrapper',
+    backgroundColor: 'tranparent',
+    draggable: true,
+    zoomButtons: true,
+    zoomOnScroll: true,
+    zoomOnScrollSpeed: 3,
+    zoomMax: 12,
+    zoomMin: 1,
+    zoomAnimate: true,
+    showTooltip: false,
+    zoomStep: 1.5,
+    bindTouchEvents: true,
+    // Line options
+    lineStyle: {
+      stroke: '#808080',
+      strokeWidth: 1,
+      strokeLinecap: 'round'
+    },
+    focusOn: {}, // focus on regions on page load
+    /**
+     * Markers options
+     */
+    markers: null, // Set of markers to add to the map during initialization
+    markersSelectable: false,
+    markersSelectableOne: false,
+    markerStyle: {
+      initial: {
+        r: 7,
+        fill: '#2D5605',
+        fillOpacity: 1,
+        stroke: '#FFF',
+        strokeWidth: 5,
+        strokeOpacity: .5
+      },
+      hover: {
+        fill: '#2D5605',
+        cursor: 'pointer'
+      },
+      selected: {
+        fill: '#2D5605'
+      },
+      selectedHover: {}
+    },
+    markerLabelStyle: {
+      initial: {
+        fontFamily: 'Verdana',
+        fontSize: 12,
+        fontWeight: 500,
+        cursor: 'default',
+        fill: '#2D5605'
+      },
+      hover: {
+        cursor: 'pointer'
+      },
+      selected: {},
+      selectedHover: {}
+    },
+    /**
+     * Region styles
+     */
+    regionsSelectable: true,
+    regionsSelectableOne: true,
+    regionStyle: {
+      // Region style
+      initial: {
+        fill: '#e3eaef',
+        fillOpacity: 1,
+        stroke: 'none',
+        strokeWidth: 0,
+        strokeOpacity: 1
+      },
+      hover: {
+        fillOpacity: .7,
+        cursor: 'pointer'
+      },
+      selected: {
+        fill: '#E5BA5D'
+      },
+      selectedHover: {}
+    },
+    // Region label style
+    regionLabelStyle: {
+      initial: {
+        fontFamily: 'Verdana',
+        fontSize: '12',
+        fontWeight: 'bold',
+        cursor: 'default',
+        fill: '#35373e'
+      },
+      hover: {
+        cursor: 'pointer'
+      }
+    },
+    labels: {
+    },
+    series: {
+      markers: [
+        // You can add one or more objects to create series for markers.
+      ],
+      regions: [
+        {
+          attribute: 'fill',
+          attributes: {
+            // EG: 'red'
+          },
+          legend: {
+            title: 'Legend',
+            vertical: true,
+          },
+          scale: {
+            "Think Tree Division": "#97B07EFF",
+          },
+          values: {
+            UG: "Think Tree Division",
+            TZ: "Think Tree Division",
+            KE: "Think Tree Division",
+            // LY: "Criteria",
+          },
+        },
+      ]
+    },
+    onRegionSelected: function (index, isSelected, selectedRegions) {
+      console.log(index, isSelected, selectedRegions);
+      // enable certain regions
+      if (['UG', 'TZ', 'KE'].indexOf(index) < 0) {
+        worldMap.clearSelectedRegions();
+        worldMap.removeMarkers();
+        worldMap.setFocus();
+      } else {
+        var e1 = document.querySelector(".uganda");
+        var e2 = document.querySelector(".kenya");
+        var e3 = document.querySelector(".tanzania");
+        switch (index) {
+          case 'UG':
+            e1.classList.add("show");
+            e2.classList.remove("show");
+            e3.classList.remove("show");
+            worldMap.setFocus({
+              regions: ['UG'],
+              animate: true
+            });
+            worldMap.removeMarkers();
+            worldMap.addMarkers([{
+              name: 'Kampala',
+              coords: [0.347596, 32.582520],
+              label: 'Kampala',
+            },
+            {
+              name: 'Kabale',
+              coords: [-0.80774, 29.98588],
+              label: 'Kabale',
+              offset: [10, 0],
+              style: {
+                initial: {
+                  image: "../img/tree_map_wood.png"
+                }
+              }
+            }])
+            break;
+          case 'KE':
+            e1.classList.remove("show");
+            e2.classList.add("show");
+            e3.classList.remove("show");
+            worldMap.setFocus({
+              regions: ['KE'],
+              animate: true
+            });
+            worldMap.removeMarkers();
+            worldMap.addMarkers([{
+              name: 'Nairobi',
+              coords: [-1.28333, 36.81667],
+              label: 'Nairobi',
+            }, {
+              name: 'kisii',
+              coords: [-0.680482, 34.777061],
+              label: 'kisii',
+              style: {
+                initial: {
+                  image: "../img/tree_map_wood.png"
+                }
+              }
+            }])
+            break;
+          case 'TZ':
+            e1.classList.remove("show");
+            e2.classList.remove("show");
+            e3.classList.add("show");
+            worldMap.setFocus({
+              regions: ['TZ'],
+              animate: true
+            });
+            worldMap.removeMarkers();
+            worldMap.addMarkers([{
+              name: 'Dodoma',
+              coords: [-6.161184, 35.745426],
+              label: 'Dodoma',
+            }])
+            break;
+          default:
+            break;
+        }
+      }
+    },
+  })
+
+  function $(selector) {
+    return document.querySelector(selector)
+  }
+
+
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECM3JT2GRV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
-
   gtag('config', 'G-ECM3JT2GRV');
 </script>
 

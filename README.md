@@ -6,6 +6,8 @@ Please create a new branch based on the ```dev``` branch every time you start wo
 ## fork the repository to your account
 <img width="1386" alt="image" src="https://github.com/user-attachments/assets/76a68c5e-5e27-43cf-bd5e-5fb4f0e4471a" />
 
+unselect "copy the main branch only"
+
 ## go to the your account, clone the repository from your account to your local coding environment.
 The repository in your account will be the remote（or origin）in your local  coding environment.
 <img width="1561" alt="image" src="https://github.com/user-attachments/assets/b84a9596-b1aa-48a8-b903-c25ba293d88f" />

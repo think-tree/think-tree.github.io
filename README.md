@@ -62,6 +62,8 @@ After you commited and pushed all your updates to the remote, please resolve mer
 ## 3.1  resolve merge conflicts
 
 Sync fork on the repository webpage in your github account.
+<img width="1001" alt="image" src="https://github.com/user-attachments/assets/48ee2e5a-1a07-4849-bf89-bdafd4c32fe4" />
+
 
 Checkout to the dev branch and pull the latest update to local in your coding environment.
 

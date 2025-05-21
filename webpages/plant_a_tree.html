@@ -54,6 +54,7 @@
       <h2>
         Uganda
       </h2>
+       Location: Kabale District 
       <table>
         <thead>
           <tr>
@@ -412,15 +413,18 @@
     },
     onRegionSelected: function (index, isSelected, selectedRegions) {
       console.log(index, isSelected, selectedRegions);
+      var e1 = document.querySelector(".uganda");
+      var e2 = document.querySelector(".kenya");
+      var e3 = document.querySelector(".tanzania");
       // enable certain regions
       if (['UG', 'TZ', 'KE'].indexOf(index) < 0) {
         worldMap.clearSelectedRegions();
         worldMap.removeMarkers();
         worldMap.setFocus();
+        e1.classList.remove("show");
+        e2.classList.remove("show");
+        e3.classList.remove("show");
       } else {
-        var e1 = document.querySelector(".uganda");
-        var e2 = document.querySelector(".kenya");
-        var e3 = document.querySelector(".tanzania");
         switch (index) {
           case 'UG':
             e1.classList.add("show");
